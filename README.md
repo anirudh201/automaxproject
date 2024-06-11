@@ -1,2 +1,0 @@
-# automaxproject
-new repo
