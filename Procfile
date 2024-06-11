@@ -1,1 +1,0 @@
-web: guicorn src.wsgi --log-file -pi
