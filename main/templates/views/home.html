@@ -14,12 +14,12 @@
                 <h1 class="fw-light">AutoMax</h1>
                 <p class="lead text-muted">The best place to buy or sell modern enthusiast cars, and we’ve
                     made it that much easier.</p>
-                <a href="{% url 'list' %}" class="btn btn-primary my-2">List Your Car</a>
+                <a href="{% url 'list' %}" class="btn btn-primary my-2" style="border-radius: 20px;">List Your Car</a>
             </div>
             <div class="col-lg-6 col-md-8 mx-auto">
                 <form method="get">
                     {{ listing_filter.form|crispy }}
-                    <button class="btn btn-sm btn-danger" type="submit">Submit</button>
+                    <button class="btn btn-sm btn-danger" type="submit" style="border-radius: 20px;">Submit</button>
                 </form>
             </div>
         </div>
