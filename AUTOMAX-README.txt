@@ -1,23 +1,26 @@
-# 7 steps to manually run my web app on any os.
+# 7 steps in cli  to manually run my web app on any os.
 
-1.download my project. 
+1.git clone https://github.com/anirudh201/automaxproject.git  #download my project. 
 
-2.cd project directory in cmd-admin.
+2.cd automaxproject                                          #cd project directory in cmd-admin.
 
-3.activate:  .\venv\Scripts\Activate.ps1 # activating virtual environment.
-  deactivate: deactivate                 # deactivating virtual environment.
-
-4.run: python manage.py runserver        # for loading website.
-
-5.pip install:
-    *Django                              # main
+3.activate:  
+       .\venv\Scripts\Activate.ps1                           # activating virtual environment.
+ 
+4.pip install:
+    *Django                                                  # main
     *django-localflavor
-    *django-crispy-forms                 # for register forms
-    *crispy-bootstrap4                   # for modern look
+    *django-crispy-forms                                     # for register forms
+    *crispy-bootstrap4                                       # for modern look
     *django-filter
     *Pillow
 
-6.After installing all pip files -> {run: python manage.py runserver}
+5.After installing all pip files -> {run: python manage.py runserver}
+
+6.run: python manage.py runserver                            # for loading website.
 
 7.Website loads without errors successfully... :).
+
+8.deactivate: 
+   deactivate                                                # deactivating virtual environment.
 
