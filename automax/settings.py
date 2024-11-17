@@ -42,14 +42,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'localflavor',
     'crispy_forms',
-    'crispy_bootstrap4',
+    'crispy_bootstrap5',
     'main',
     'users',
 ]
 #crispy form
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
-CRISPY_TEMPLATE_PACK = "bootstrap4"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 
 MIDDLEWARE = [
@@ -142,7 +142,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
 
 #crispy
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
