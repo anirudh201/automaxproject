@@ -1,3 +1,6 @@
+Invoke-WebRequest -Uri "https://git-scm.com/download/win" -OutFile "Git-Installer.exe"
+Start-Process -FilePath ".\Git-Installer.exe" -ArgumentList "/SILENT" -Wait
+Remove-Item ".\Git-Installer.exe"
 git clone https://github.com/anirudh201/automaxproject.git
 cd automaxproject
 python -m venv venv
