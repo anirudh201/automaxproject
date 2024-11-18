@@ -1,4 +1,3 @@
-git
 git clone https://github.com/anirudh201/automaxproject.git
 cd automaxproject
 python -m venv venv
