@@ -11,7 +11,6 @@ python --version
 echo Installing Git...
 winget install --id Git.Git -e --source winget
 echo Git installation completed.
-git --version
 :: download project from git hub
 git clone https://github.com/anirudh201/automaxproject.git
 :: selecting downloaded project directery
