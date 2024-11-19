@@ -8,8 +8,9 @@ start /wait PythonInstaller.exe /quiet InstallAllUsers=1 PrependPath=1 Include_t
 python --version
 
 :: download and install git
-curl -fsSL https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe -o GitInstaller.exe
-start /wait GitInstaller.exe /VERYSILENT
+echo Installing Git...
+winget install --id Git.Git -e --source winget
+echo Git installation completed.
 git --version
 :: download project from git hub
 git clone https://github.com/anirudh201/automaxproject.git
